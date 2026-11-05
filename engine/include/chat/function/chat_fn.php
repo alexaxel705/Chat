@@ -22,7 +22,8 @@ function load_start_messages()
 		$settings_iframe='0';
 	}
 	$f = file($_SERVER['DOCUMENT_ROOT'].'/engine/include/chat/lgchat86123.txt');
-	for($s = sizeof($f)-20; $s <= sizeof($f); $s++)
+	$start_index = max(0, sizeof($f) - 20);
+	for($s = $start_index; $s < sizeof($f); $s++)
 	{
 		if(isset($f[$s]))
 		{
@@ -171,18 +172,15 @@ function start_job()
 		while ($file = readdir($dh)): 
 		if ($file != '.' && $file != '..')//Сканируем название раздела
 		{
-			if($_SERVER['REQUEST_TIME']-file_get_contents($_SERVER['DOCUMENT_ROOT'].'/engine/include/chat/online/'.$file) > 60)
+			$file_path = $_SERVER['DOCUMENT_ROOT'].'/engine/include/chat/online/'.$file;
+			$last_time = is_file($file_path) ? (int)file_get_contents($file_path) : 0;
+
+			if(($_SERVER['REQUEST_TIME'] - $last_time) > 60)
 			{
 				$filen=substr($file, 0, -4);//Удаляем .txt
-				unlink($_SERVER['DOCUMENT_ROOT'].'/engine/include/chat/online/'.$filen.'.txt');
-				unlink($_SERVER['DOCUMENT_ROOT'].'/engine/include/chat/on/'.$filen.'.arr');
-				unlink($_SERVER['DOCUMENT_ROOT'].'/engine/include/chat/on/'.$filen.'_ignore.arr');
-				/*if(file_exists($_SERVER['DOCUMENT_ROOT'].'/database/guest/'.$filen.'.txt') == true)//Гости
-				{
-					unlink($_SERVER['DOCUMENT_ROOT'].'/database/guest/'.$filen.'.txt');
-					unlink($_SERVER['DOCUMENT_ROOT'].'/database/guest/'.$filen.'_biu.arr');
-					unlink($_SERVER['DOCUMENT_ROOT'].'/database/guest/'.$filen.'_color.arr');
-				}*/
+				if(file_exists($_SERVER['DOCUMENT_ROOT'].'/engine/include/chat/online/'.$filen.'.txt')) unlink($_SERVER['DOCUMENT_ROOT'].'/engine/include/chat/online/'.$filen.'.txt');
+				if(file_exists($_SERVER['DOCUMENT_ROOT'].'/engine/include/chat/on/'.$filen.'.arr')) unlink($_SERVER['DOCUMENT_ROOT'].'/engine/include/chat/on/'.$filen.'.arr');
+				if(file_exists($_SERVER['DOCUMENT_ROOT'].'/engine/include/chat/on/'.$filen.'_ignore.arr')) unlink($_SERVER['DOCUMENT_ROOT'].'/engine/include/chat/on/'.$filen.'_ignore.arr');
 			}
 		}
 		endwhile; 

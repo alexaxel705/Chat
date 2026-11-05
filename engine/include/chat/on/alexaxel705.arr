@@ -1,0 +1,1 @@
+{"status":"1","times":1793905733,"str":79,"old_m":"\u0445\u043c","old_mt":1793905740,"g_voice":"1","last_alert":"0","print_message":"0"}

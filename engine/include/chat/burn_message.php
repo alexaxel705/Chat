@@ -1,6 +1,7 @@
 <?php
 	session_start();
-	include("../MTA/mta_sdk.php");
+	#include("../MTA/mta_sdk.php");
+
 	$_POST['message'] = mb_substr($_POST['message'],0,800);
 	$_POST['message'] = preg_replace('/([^\s]{200})[^\s]+/', '$1...', $_POST['message']);
 	$_POST['message'] = str_replace('>','&gt;',$_POST['message']) ;
@@ -111,9 +112,15 @@ $message=str_replace('(mir1.gif)',' <img alt="" class="chat_sc" src="/engine/ima
 	session_write_close();
 
  
-	$SERVER = new mta("90.188.88.152", 22005);
-    $RESOURCE = $SERVER->getResource("chat");
-    $RESOURCE->call("BurnChatMSG", $usr_name_tr, $message, $nick_color);
+
+	#$SERVER = new mta("90.188.88.152", 22005);
+    #$RESOURCE = $SERVER->getResource("chat");
+    #$RESOURCE->call("BurnChatMSG", $usr_name_tr, $message, $nick_color);
+
+	#$SERVER = new mta("90.188.88.152", 22005);
+    #$RESOURCE = $SERVER->getResource("chat");
+    #$RESOURCE->call("BurnChatMSG", $usr_name_tr, $message, $nick_color);
+
 
 
 

@@ -26,6 +26,7 @@
 <!--<[name_alexaxel705]>-->[16:15:28] [MTA] <b onclick="print_message(this); return false;" class="cursor_pointer bold" style="color:#30D5C8;">alexaxel705</b>: <span class="chat_usr_message_text" style="color:#000000">ку</span>
 <!--<[name_alexaxel705]>-->[16:15:32] [MTA] <b onclick="print_message(this); return false;" class="cursor_pointer bold" style="color:#30D5C8;">alexaxel705</b>: <span class="chat_usr_message_text" style="color:#000000">раз два</span>
 <!--<[name_alexaxel705vgv]>-->[16:15:37] <b onclick="print_message(this); return false;" class="cursor_pointer" style="color:#7a40ae;">alexaxel705vgv</b>: <span class="chat_usr_message_text" style="color:#aec27a">ааххаха</span>
+<<<<<<< HEAD
 <!--<[name_alexaxel705]>-->[16:16:03] [MTA] <b onclick="print_message(this); return false;" class="cursor_pointer bold" style="color:#30D5C8;">alexaxel705</b>: <span class="chat_usr_message_text" style="color:#000000">ку</span>
 <!--<[name_<b>Системное оповещение</b>]>-->[16:33:34] [MTA] <b onclick="print_message(this); return false;" class="cursor_pointer bold" style="color:#000;"><b>Системное оповещение</b></b>: <span class="chat_usr_message_text" style="color:#000000">alexaxel705 Подключился к серверу</span>
 <!--<[name_alexaxel705]>-->[16:33:42] [MTA] <b onclick="print_message(this); return false;" class="cursor_pointer bold" style="color:#30D5C8;">alexaxel705</b>: <span class="chat_usr_message_text" style="color:#000000">ку</span>
@@ -64,3 +65,15 @@
 <!--<[name_alexaxel705]>-->[17:09:19] [MTA] <b onclick="print_message(this); return false;" class="cursor_pointer bold" style="color:#30D5C8;">alexaxel705</b>: <span class="chat_usr_message_text" style="color:#000000">раз два</span>
 <!--<[name_alexaxel705]>-->[17:09:32] [MTA] <b onclick="print_message(this); return false;" class="cursor_pointer bold" style="color:#30D5C8;">alexaxel705</b>: <span class="chat_usr_message_text" style="color:#000000">ахахаха</span>
 <!--<[name_alexaxel705]>-->[17:09:40] [MTA] <b onclick="print_message(this); return false;" class="cursor_pointer bold" style="color:#30D5C8;">alexaxel705</b>: <span class="chat_usr_message_text" style="color:#000000">меня слышно?</span>
+=======
+<!--<[name_alexaxel705]>-->[16:16:03] [MTA] <b onclick="print_message(this); return false;" class="cursor_pointer bold" style="color:#30D5C8;">alexaxel705</b>: <span class="chat_usr_message_text" style="color:#000000">ку</span>
+>>>>>>> 2e06755eef217cac914503cae8005820a6b5b312
+
+<!--<[name_alexaxel705]>-->[17:22:31] [MTA] <b onclick="print_message(this); return false;" class="cursor_pointer bold" style="color:#30D5C8;">alexaxel705</b>: <span class="chat_usr_message_text" style="color:#000000">хм</span>
+<!--<[name_system]>--><div class="chat_all_message_style chat_system_message">[19:06:49] <b>Системное оповещение</b>: "<span class="tx_c_9ACD32 cursor_pointer" onclick="print_message(this); return false;">alexaxel705</span>" Подключился к чату</div>
+<!--<[name_system]>--><div class="chat_all_message_style chat_system_message">[19:07:30] <b>Системное оповещение</b>: "<span class="tx_c_9ACD32 cursor_pointer" onclick="print_message(this); return false;">alexa05gfgfg</span>" Подключился к чату</div>
+<!--<[name_system]>--><div class="chat_all_message_style chat_system_message">[19:07:48] <b>Системное оповещение</b>: "<span class="tx_c_9ACD32 cursor_pointer" onclick="print_message(this); return false;">alexaxel722</span>" Подключился к чату</div>
+<!--<[name_alexaxel722]>-->[19:08:42] <b onclick="print_message(this); return false;" class="cursor_pointer" style="color:#90c877;">alexaxel722</b>: <span class="chat_usr_message_text" style="color:#771590">re.</span>
+<!--<[name_system]>--><div class="chat_all_message_style chat_system_message">[19:08:53] <b>Системное оповещение</b>: "<span class="tx_c_9ACD32 cursor_pointer" onclick="print_message(this); return false;">alexaxel705</span>" Подключился к чату</div>
+<!--<[name_alexaxel705]>-->[19:08:55] <b onclick="print_message(this); return false;" class="cursor_pointer" style="color:#bc00c3;">alexaxel705</b>: <span class="chat_usr_message_text" style="color:#000800"><b><i>раз два</b></i></span>
+<!--<[name_alexaxel705]>-->[19:09:00] <b onclick="print_message(this); return false;" class="cursor_pointer" style="color:#bc00c3;">alexaxel705</b>: <span class="chat_usr_message_text" style="color:#000800">хм</span>
