@@ -1,1 +1,1 @@
-{"status":"1","times":1793905948,"str":83,"old_m":"","old_mt":1793905948,"g_voice":"1","last_alert":"0","print_message":"0"}
+{"status":"1","times":1793906334,"str":83,"old_m":"","old_mt":1793906334,"g_voice":"1","last_alert":"0","print_message":"0"}
