@@ -1,0 +1,12 @@
+[08-Sep-2026 17:52:19 Etc/GMT-7] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strlen() in C:\web\engine\include\chat\function\auth.php:38
+Stack trace:
+#0 {main}
+  thrown in C:\web\engine\include\chat\function\auth.php on line 38
+[08-Sep-2026 17:52:22 Etc/GMT-7] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strlen() in C:\web\engine\include\chat\function\auth.php:38
+Stack trace:
+#0 {main}
+  thrown in C:\web\engine\include\chat\function\auth.php on line 38
+[08-Sep-2026 17:53:13 Etc/GMT-7] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strlen() in C:\web\engine\include\chat\function\auth.php:38
+Stack trace:
+#0 {main}
+  thrown in C:\web\engine\include\chat\function\auth.php on line 38
